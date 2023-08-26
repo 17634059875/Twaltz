@@ -1,0 +1,42 @@
+{
+    "frameEnd": "*/",
+    "frameStart": "/*",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 4096,
+                    "fft": true,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": -100,
+                    "title": "功率画图",
+                    "units": "dBm",
+                    "value": "%1",
+                    "widget": ""
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 1.5,
+                    "min": -0.5,
+                    "title": "比特",
+                    "units": "",
+                    "value": "%2",
+                    "widget": ""
+                }
+            ],
+            "title": "PIN",
+            "widget": ""
+        }
+    ],
+    "separator": "",
+    "title": "line"
+}
